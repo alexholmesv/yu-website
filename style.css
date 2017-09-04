@@ -1,0 +1,105 @@
+
+body {
+		background-color: black;
+		font-family: 'Open Sans Condensed';
+	}
+
+h1 {
+	color: white;
+	font-size: 60px;
+}
+
+p {
+	color: white;
+	font-size: 25px;
+}
+
+// .menu-mobile {
+// 	display: none;
+// }
+.menu-full {
+			margin-left: 25%;
+	}
+	.circle-container {
+	    position: relative;
+	    width: 650px;
+	    height: 650px;
+	    padding: 2.8em;
+	    border-radius: 50%;
+	}
+	.circle-container a {
+	    display: block;
+	    position: absolute;
+	    top: 40%; left: 50%;
+	    width: 150px;
+	    margin: -2em;
+	}
+
+	.circle-container a:hover {
+		// transition: .3s;
+		// background-color: rgba(255,255,255,0.3);
+		// border-radius: 100px;
+		}
+
+	.circle-container img { display: block; width: 100%; }
+	.deg0 { transform: translate(300px); } /* 12em = half the width of the wrapper */
+	.deg45 { transform: rotate(45deg) translate(12em) rotate(-45deg); }
+	.deg90 { transform: rotate(90deg) translate(12em) rotate(-90deg); }
+	.deg135 { transform: rotate(135deg) translate(12em) rotate(-135deg); }
+	.deg180 { transform: translate(-12em); }
+	.deg210 { transform: rotate(210deg) translate(12em) rotate(-210deg); }
+	.deg225 { transform: rotate(225deg) translate(12em) rotate(-225deg); }
+	.deg315 { transform: rotate(315deg) translate(12em) rotate(-315deg); }
+
+	.center { 
+		transform: translate(-100px);
+		top: 36%!important;
+		width: 300px!important; 
+	}
+
+	.contacto {
+		margin-top: 90px!important;
+		width: 150px!important;
+	}
+
+	.xatarra {
+		left: 160px!important;
+	}
+
+	.escena {
+		left: 200px!important;
+	}
+
+	.andy {
+		left: 200px!important;
+	}
+
+	.cuervo {
+		width: 180px!important;
+		top: 42%!important;
+	} 
+
+	.producciones {
+		width: 250px!important;
+		left: 280px!important;
+	}
+
+	.sections {
+		padding-left: 50px;
+	}
+	.about {
+		margin-top: 100px;
+		padding-top: 100px;
+		padding-botom: 100px;	
+	}
+
+	.jimhast-section {
+		padding-top: 100px;
+		padding-botom: 100px;
+
+	}
+
+	.sections a {
+		decoration: none;
+		font-size: 20px;
+	}
