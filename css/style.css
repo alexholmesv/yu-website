@@ -84,7 +84,7 @@ p {
 		left: 280px!important;
 	}
 
-	.sections {
+	.content-section {
 		padding-left: 50px;
 	}
 	.about {
@@ -99,7 +99,7 @@ p {
 
 	}
 
-	.sections a {
+	.content-section a {
 		decoration: none;
 		font-size: 20px;
 	}
