@@ -66,8 +66,8 @@
 	margin: auto;
 }
 
+
 .main-title {
-	padding-top: 25%;
   text-align:left;
   color: white;
   font-family:'Roboto';
@@ -130,17 +130,15 @@
 
 .start-arrow {
   position: absolute;
-}
-
-.arrow-pos {
-	position: absolute;
-  top: 90%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
 }
 
 .start-arrow .svg-arrow {
-  width: 50px;
+  width: 100px;
   height: auto;
   margin: 0 2rem;
   cursor: pointer;
@@ -189,4 +187,3 @@
     opacity: 1;
   }
 }
-

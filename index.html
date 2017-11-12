@@ -2,13 +2,18 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>11:11</title>
+	<title>Yu</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/jquery.fullpage.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/accordion-slider.min.css" media="screen"/>
+	<link rel="stylesheet" href="css/animate.css">
+	 <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 	<script rel="stylesheet" href="https://cdnjs.com/libraries/fullPage.js"></script>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
@@ -21,62 +26,151 @@
 	<script src="http://zikro.gr/dbg/html/fullPage/jquery.fullpage.js"></script>
 	<script href="js/jquery.fullPage.js"></script>
 	<script src="js/script.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.accordionSlider.min.js"></script>
 
 	<script type="text/javascript">
 			$(document).ready(function() {
 				$('#fullpage').fullpage({
-					sectionsColor: ['black', 'black', 'black', 'whitesmoke', '#ccddff'],
-					anchors:['menu', 'about', 'jimhast'],
+					sectionsColor: ['black', 'black', 'black', 'black'],
+					anchors:['header', 'anchor2'],
 					scrollingSpeed: 700
 				});
+
+				$('#my-accordion').accordionSlider({
+					autoplay: false,
+
+				});
+
 			});
 	</script>
 </head>
 
+<!-- Remember to state anchor sections by same name in div anchor-link property, href with # tag and on script above IN ORDER-->
+
 <body>
-	<div id="fullpage">
-		<div data-anchor="menu" class="section active">
-			<div class="menu-full">	
-				<div class='circle-container'>
-			    <a href='#about' class='center 1111'><img src='img/1111.png'></a>
-			    <a href='#jimhast' class='deg0 jimhast'><img src='img/jimhast.png'></a>
-			    <a href='#' class='deg45 cuervo'><img src='img/cuervo.png'></a>
-			    <a href='#' class='deg90 producciones'><img src='img/producciones.png'></a>
-			    <a href='#' class='deg90 contacto'><img src='img/contacto.png'></a>
-			    <a href='#' class='deg135 andy'><img src='img/andy.png'></a>
-			    <a href='#' class='deg180 xatarra'><img src='img/xatarra.png'></a>
-			    <a href='#' class='deg210 escena'><img src='img/escena.png'></a>
-			    <a href='#' class='deg225 sesiones'><img src='img/sesiones.png'></a>
-			    <a href='#' class='deg315 amigos'><img src='img/amigos.png'></a>
+	<div id="navbar">
+		<a href="#header"><img src="img/yu.png" alt=""></a>
+ 	</div>
+	
+<!-- 	<ul id="menu">
+		<li data-menuanchor="header" class="active"><a href="#header">First section</a></li>
+		<li data-menuanchor="anchor2"><a href="#anchor2">Second section</a></li>
+		<li data-menuanchor="anchor3"><a href="#anchor3">Third section</a></li>
+	</ul> -->
+
+ 	<div id="wrapper">
+ 		
+		
+ 		<div class="section header" data-anchor="header">
+
+ 			<div class="main-title">
+	 			<div class="animated-header localization">Localization</div> 
+				<div class="animated-header"><span>is not a game</span></div>
+			</div>
+			
+			<a href="#anchor2">
+				<div class="start-arrow arrow-pos">
+					<svg width="18px" height="17px" viewBox="-1 0 18 17" version="1.1" class="svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g>
+							<polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+							<polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+							<path d="M-4.58892184e-16,0.56157424 L-4.58892184e-16,16.1929159 L9.708,8.33860465 L-1.64313008e-15,0.56157424 L-4.58892184e-16,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+						</g>
+					</svg>
 				</div>
-			</div>
+			</a>
+
+
+
+ 		</div>
+
+ 		<!-- END OF SECTIION 1 -->
+ 		<!-- START OF SECTION 2 -->
+
+ 		<div class="section section-two" data-anchor="anchor2">
+
+ 		</div>
+
+ 		<div class="section third" data-anchor="anchor3">
+ 			<div class="container">
+ 				<div class="row">
+ 					<div class="col-sm-4 is-animated">
+ 						<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="https://placeimg.com/318/180/nature" alt="Card image cap">
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+ 					</div>
+ 					<div class="col-sm-4 is-animated">
+ 						<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="https://placeimg.com/318/180/people" alt="Card image cap">
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+ 					</div>
+ 					<div class="col-sm-4 is-animated">
+ 						<div class="card" style="width: 20rem;">
+						  <img class="card-img-top" src="https://placeimg.com/318/180/tech" alt="Card image cap">
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+ 					</div>
+ 					<div class="col-xs-12 text-center is-animated__single slide-3-btn-box">
+ 						<button type="button" class="btn btn-primary btn-lg slide-3-btn">A Simple Button</button>
+ 					</div>
+ 				</div>
+ 				<!--end of row-->
+ 			</div>
+ 		</div>
+
+ 		<div class="section">
+ 			<div class="slide slide-1">
+ 				Slide 1
+ 			</div>
+ 			<div class="slide slide-2">
+ 				Slide 2
+ 			</div>
+ 		</div>
+		<div id="footer" class="section fp-auto-height footer">
+			Footer
 		</div>
 
-		<div class="section content-section" data-anchor="about">
-			<div class="about">
-				<h1>11:11</h1>
-				<p>Somos super shori</p>
-				<a href="#menu">Volver</a>
-			</div>
-		</div>
-		<div class="section content-section" data-anchor="jimhast">
-				<h1>Jim Hast</h1>
-				<p>El súper DJ</p>
-				<a href="#menu">Volver</a>
-		</div>
-		<div class="section content-section">
-			<div class="slide"> Slide 1 </div>
-			<div class="slide"> Slide 2 </div>
-			<div class="slide"> Slide 3 </div>
-			<div class="slide"> Slide 4 </div>
-		</div>
+ 	</div>
 
-</div>
+<script>
+	var $isAnimatedSecond = $('.third .is-animated'),
+  		$isAnimatedSecondSingle = $('.third .is-animated__single');
+</script>
 
 
+<script>
+	$(document).ready(function(){
+		$('#wrapper').fullpage({
+			navigation: true,
+			slidesNavigation: true,
+			lazyLoading: true,
+			menu: '#menu',
 
+			onLeave: function(index, nextIndex, direction) {
+				if( index == 2 && nextIndex == 3 ) { 
+        $isAnimatedSecond.addClass('animated fadeInUp'); 
+        $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
+        $isAnimatedSecond.eq(1).css('animation-delay', '.6s');
+        $isAnimatedSecond.eq(2).css('animation-delay', '.9s');
+        $isAnimatedSecondSingle.addClass('animated fadeInDown').css('animation-delay', '1.7s');
+      	}
+			}
+		});
 
-
+  });
+</script>
 
 </body>
 </html>
